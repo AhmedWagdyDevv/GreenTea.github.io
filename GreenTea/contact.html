@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="images/icon.png">
+    <title>Green Tea</title>
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="logo" class="logo">
+        <nav class="navbar">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </nav>
+        <a class="cta" href="login.html"> <button>Login</button> </a>
+      </header>
+      <main>
+        <div class="box">
+          <form method="post" action="contact.php">
+            <label for="name">Name:</label>
+            <input type="text" class="text" name="cf_name" id="name" />
+            <label for="email">email:</label>
+            <input type="text" class="text" name="cf_email" id="email" />
+            <label for="text">Message:</label>
+            <textarea class="text" name="cf_message" id="message"></textarea>
+            <input type="submit" class="submit" value="Send" />
+          </form>  
+        </div>
+      </main>
+        <a href="index.html"><button class="back-button">Back</button></a>
+      
+</body>
+</html>
